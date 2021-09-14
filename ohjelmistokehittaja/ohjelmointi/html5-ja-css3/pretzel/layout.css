@@ -134,7 +134,8 @@ ul a{
     padding: 1rem 0 1rem 0;
 }
 
-#sidebar {
+.eka {
+    font-weight: bold;
     
       
 }
@@ -156,6 +157,7 @@ ul a{
     font-size: large;
     margin: 1rem;
     border-radius: 1rem;
+    font-weight: bold;
 }
 
 .side-text {
