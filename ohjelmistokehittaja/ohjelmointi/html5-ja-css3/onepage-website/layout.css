@@ -71,6 +71,8 @@ ol a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
    
 }
 
@@ -324,6 +326,17 @@ input[type=text], select, textarea{
     .col-75 {
         width: 75%;
     }
+    #portfolio {
+        background-image: url("https://source.unsplash.com/1600x900/?city,night");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 2rem 1rem;
+        margin-top: 6rem;
+       
+    }
+
+   
 
 }
 
@@ -352,6 +365,15 @@ input[type=text], select, textarea{
         height: auto;
         padding: 0 0 1rem 1rem;
     
+    }
+    #portfolio {
+        background-image: url("https://source.unsplash.com/1600x900/?city,night");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 4rem 2rem;
+        margin-top: 4rem;
+       
     }
     
 
