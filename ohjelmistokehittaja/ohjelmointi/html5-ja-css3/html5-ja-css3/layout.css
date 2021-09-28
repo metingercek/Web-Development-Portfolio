@@ -13,7 +13,7 @@
     height: 235px;
     left: 120px;
     top: 120px;
-    animation-name: example;
+    animation-name: anim1;
     animation-duration: 6s;  
     animation-fill-mode: forwards;
 }
@@ -21,7 +21,7 @@
 
 
   
-  @keyframes example {
+  @keyframes anim1 {
     from {top: -235px;}
     to {top: 117px;}
   }
@@ -34,18 +34,18 @@
     background-color: #dcecb5c5;
     width: 155px;
     height: 250px;
-    left: 225px;
+    left: -155px;
     top: 250px; 
-    animation-name: example2;
+    animation-name: anim2;
     animation-duration: 6s;  
     animation-delay: 6s;
     animation-fill-mode: forwards;
 
 }
-  @keyframes example2 {
+  @keyframes anim2 {
     
-    from {left: -155px;}
-    to {left: 225px;}
+    from {left: -155px; margin-left:0%;}
+    to {left: 225px; }
   }
 
 #kolmas {
